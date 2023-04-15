@@ -6,3 +6,4 @@
 //3 step => git push
 //
 //git pull => gets all the code in the github.
+//git branch => see all the branches
