@@ -25,13 +25,10 @@
     <main class="list">
       <ul class="listMovies">
         <li class="needToAlign">
-          <img
-            src="LOR.jfif"
-            alt=""
-          />
+          <img src="LOR.jfif" alt="" />
           <p class="title">The Lord of the Rings</p>
           <p class="genre">Action, Adventure</p>
-          <div class="mytooltip tooltip-effect-1">
+          <!-- <div class="mytooltip tooltip-effect-1">
             <article class="tooltip-item">More info</article>
             <span class="tooltip-content clearfix">
               <img
@@ -40,16 +37,13 @@
               <span class="tooltip-text"
                 >While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.</span
               >
-            </div>
+            </div> -->
         </li>
         <li class="needToAlign">
-          <img
-            src="SO.jfif"
-            alt=""
-          />
+          <img src="SO.jfif" alt="" />
           <p class="title">2001: A Space Odyssey</p>
           <p class="genre">Acdventure, Sci-Fi</p>
-          <div class="mytooltip tooltip-effect-1">
+          <!-- <div class="mytooltip tooltip-effect-1">
             <article class="tooltip-item">More info</article>
             <span class="tooltip-content clearfix">
               <img
@@ -58,7 +52,7 @@
               <span class="tooltip-text"
                 >After uncovering a mysterious artifact buried beneath the Lunar surface, a spacecraft is sent to Jupiter to find its origins - a spacecraft manned by two men and the supercomputer H.A.L. 9000.</span
               >
-            </div>
+            </div> -->
         </li>
         <li class="needToAlign">
           <img
@@ -67,7 +61,7 @@
           />
           <p class="title">Spider-Man: No Way Home</p>
           <p class="genre">Action, Adventure, Fantasy</p>
-          <div class="mytooltip tooltip-effect-1">
+          <!-- <div class="mytooltip tooltip-effect-1">
             <article class="tooltip-item">More info</article>
             <span class="tooltip-content clearfix">
               <img
@@ -76,16 +70,13 @@
               <span class="tooltip-text"
                 >With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.</span
               >
-            </div>
+            </div> -->
         </li>
         <li class="needToAlign">
-          <img
-            src="requem.jpg"
-            alt=""
-          />
+          <img src="requem.jpg" alt="" />
           <p class="title">Requiem for a Dream</p>
           <p class="genre">Drama</p>
-          <div class="mytooltip tooltip-effect-1">
+          <!-- <div class="mytooltip tooltip-effect-1">
             <article class="tooltip-item">More info</article>
             <span class="tooltip-content clearfix">
               <img
@@ -94,16 +85,13 @@
               <span class="tooltip-text"
                 >The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.</span
               >
-            </div>
+            </div> -->
         </li>
         <li class="needToAlign">
-          <img
-            src="SLST.jfif"
-            alt=""
-          />
+          <img src="SLST.jfif" alt="" />
           <p class="title">Schindler's List</p>
           <p class="genre">Boiography, Drama</p>
-          <div class="mytooltip tooltip-effect-1">
+          <!-- <div class="mytooltip tooltip-effect-1">
             <article class="tooltip-item">More info</article>
             <span class="tooltip-content clearfix">
               <img
@@ -112,17 +100,33 @@
               <span class="tooltip-text"
                 >In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.</span
               >
-            </div>
+            </div> -->
         </li>
         <li class="needToAlign">
-          <img
-            src="Guardians_of_the_Galaxy_Vol_3_poster.jpg"
-            alt=""
-          />
+          <img src="Guardians_of_the_Galaxy_Vol_3_poster.jpg" alt="" />
           <p class="title">Guardians of the Galaxy</p>
           <p class="genre">Action, Adventure</p>
+          <section class="modal hidden">
+            <div class="flex">
+              <img src="user.png" width="50px" height="50px" alt="user" />
+              <button class="btn-close">⨉</button>
+            </div>
+            <div>
+              <h3>Stay in touch</h3>
+              <p>
+                This is a dummy newsletter form so don't bother trying to test
+                it. Not that I expect you to, anyways. :)
+              </p>
+            </div>
 
-          <div class="mytooltip tooltip-effect-1">
+            <input type="email" id="email" placeholder="brendaneich@js.com" />
+            <button class="btn">Submit</button>
+          </section>
+
+          <!-- <div class="overlay hidden"></div> -->
+          <button class="btn btn-open">Open Modal</button>
+
+          <!-- <div class="mytooltip tooltip-effect-1">
             <article class="tooltip-item">More info</article>
             <span class="tooltip-content clearfix">
               <img
@@ -131,10 +135,9 @@
               <span class="tooltip-text"
                 >A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.</span
               >
-            </div>
+            </div> -->
         </li>
       </ul>
-      <button>ACDEFG</button>
     </main>
     <script src="script.js"></script>
   </body>
